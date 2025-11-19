@@ -20,7 +20,6 @@ public class Ship {
     public boolean isSunk() { return hits.size() == size;
     }
 
-    // !!! НОВИЙ ПУБЛІЧНИЙ ГЕТТЕР !!!
     public int getSize() {
         return size;
     }
