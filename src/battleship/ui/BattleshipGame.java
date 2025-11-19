@@ -329,10 +329,6 @@ public class BattleshipGame extends JFrame {
 
     private void onEnemyBoardClick(CellButton btn) {
         if (!playerTurn) {
-            centerMessage.setText("Зараз хід ворога! Дочекайтесь своєї черги.");
-            centerMessage.setForeground(Color.RED);
-            centerMessage.revalidate();
-            centerMessage.repaint();
             return;
         }
         centerMessage.setText(" ");
